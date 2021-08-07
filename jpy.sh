@@ -4,7 +4,7 @@ printf "Check https://www.facebook.com/LunaMaya445"
 {
 sudo useradd -m piecesha
 sudo adduser piecesha sudo
-echo 'piecesha:6174' | sudo chpasswd
+echo 'sans:6174' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
